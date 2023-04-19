@@ -95,7 +95,7 @@ input#new-task {
 /* Task list */
 li {
   overflow: hidden;
-  adding: 20px 0;
+  padding: 20px 0;
   border-bottom: 1px solid #eee;
 
   display: flex;
