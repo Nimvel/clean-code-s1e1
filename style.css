@@ -94,7 +94,6 @@ h3 {
 #new-task {
   display: block;
   margin: 0 0 20px;
-  width: 318px;
 }
 
 /* Task list */
@@ -111,10 +110,10 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.form__checkbox  {
   margin: 0 10px;
 }
-li > label {
+.form__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -139,11 +138,11 @@ li > label {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+li .form__input {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.edit-mode .form__input {
   display: inline-block;
   width: 224px;
 }
