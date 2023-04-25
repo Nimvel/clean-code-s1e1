@@ -30,9 +30,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.form_task,
-.form_label,
-.form_input {
+.form__task,
+.form__label,
+.form__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -74,7 +74,7 @@ h3 {
   margin: 0;
   text-transform: uppercase;
 }
-.form_input {
+.form__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -86,7 +86,7 @@ h3 {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.form_input:focus {
+.form__input:focus {
   color: #333;
 }
 
@@ -120,15 +120,15 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-.form_input {
+.form__input {
   width: 226px;
 }
-.form_delete img {
+.form__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.form_delete img:hover {
+.form__delete img:hover {
   transform: rotateZ(0);
 }
 
